@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO | Pasteleria de Diseño</title>
+
+    <link rel="shortcut icon" href="../multimedia/icono.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="../estilos/estilos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="Inicio.html" class="subrayado">Inicio</a></li>
+                <li><a href="Nosotros.html" class="subrayado">Nosotros</a></li>
+                <li><a href="Menú.html" class="subrayado">Menú</a></li>
+                <li><a href="Pedidos.html" class="subrayado">Pedidos</a></li>
+                <li><a href="Contacto.html" class="subrayado">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <label for="nombre" class="formNombre">Nombre:</label>
+        <input type="text" placeholder="Nombre y Apellido" name="Nombre:" class="formNombre">
+
+        <label for="correo" class="formCorreo">Correo:</label>
+        <input type="email" name="Correo:" placeholder="Email" class="formCorreo">
+
+        <br>
+
+        <label for="mensaje" class="formMensaje">Mensaje:</label>
+        <textarea name="Mensaje:" cols="30" rows="10" placeholder="Comentarios" class="formMensaje"></textarea>
+
+        <br>
+
+        <label for="terminos" class="formTerminos">Aceptas recibir promociones y descuentos por email?</label>
+        <input type="checkbox" name="terminos" class="formTerminos">Si
+
+        <br>
+        
+        <label for="referencia" class="formReferencia">Como supo de nosotros? </label>
+        <select name="refencia" class="formReferencia">
+            <option value="Redes sociales">Redes sociales</option>
+            <option value="Un familiar/amigo">Familiar/amigo</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Enviar Formulario">
+        <input type="reset" value="Borrar Formulario">
+    </form>
+
+    <a href="../paginas/Inicio.html" class="linkInicio">Ir a Inicio</a>
+
+    <footer>
+        <p>&copy; Derechos reservados de Pasteleria De Diseño</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: mediumaquamarine;
+  }
+h1{
+  color: #970177fa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #9D8189;
+  padding: 15px;
+}
+
+.parrafoNosotros {
+  color: #970177fa;
+  font-style: normal;
+  font-size: 4rem;
+  background-color: #9D8189;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 50px;
+  padding: 15px;
+  border: solid 5px violet;
+  overflow: auto;
+
+}
+.subrayado{
+  text-decoration: none;
+}
+
+
+  ul li{
+    list-style-type: none;
+    font-size: 3rem;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+
+  footer{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #970177fa;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgreen;
+  }
+
+
+    /* Menu*/
+    
+  .tablaMenu{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 2rem;
+    background-color: #9D8189;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    padding: 15px;
+    border: solid 5px violet;
+    overflow: auto;
+  }
+
+  .flexTabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  /* Contacto */
+
+  .formNombre{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 2rem;
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .formCorreo{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 2rem;
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .formMensaje{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .formReferencia{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .formTerminos{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .linkInicio{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+
+  /*PEDIDOS*/
+
+  .formBoton{
+    color: #970177fa;
+    font-style: normal;
+    font-size: 1.5rem;
+    background-color: #9D8189;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .boxUno{
+    color: #970177fa;
+    font-style: bold;
+    font-size: 4rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .boxDos{
+    color: #970177fa;
+    font-style: bold;
+    font-size: 4rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .boxTres{
+    color: #970177fa;
+    font-style: bold;
+    font-size: 4rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .boxPedidos{
+    color: #970177fa;
+    font-style: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+  }
+
+  .fotoBox1{
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 300px;
+    padding-bottom: 10px
+  }
+
+
+  /*Inicio*/
+
+  .imagenPasteleria{
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 300px;
+    padding-bottom: 10px
+  }
+
+  .imagenMapa{
+    margin: 15px;
+    padding: 15px;
+    width: 400px;
+    height: 300px;
+    padding-bottom: 10px
+  }
+
+  .parrafoInicio{
+    color: #fffffffa;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.30px;
+    padding: 0.30px;
+    overflow: auto;
+  }
+
+  .tituloInicio{
+    color: #970177fa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 15px;
+  }
+
+  .header ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px
+  }
+
+
+.contenedor{
+  background-color: rgb(23, 23, 77);
+  width: 100%;
+  height: 50%;
+
+  display: grid;
+}
