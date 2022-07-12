@@ -18,18 +18,7 @@ h1{
   padding: 15px;
 }
 
-.parrafoNosotros {
-  color: #970177fa;
-  font-style: normal;
-  font-size: 4rem;
-  background-color: #9D8189;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  margin: 50px;
-  padding: 15px;
-  border: solid 5px violet;
-  overflow: auto;
-}
+
 
 
 .subrayado{
@@ -65,11 +54,25 @@ footer{
   animation-name: titulo;
   animation-iteration-count: 1;
 }
+
+
   
+  /* Nosotros */
 
+.parrafoNosotros {
+  color: #970177fa;
+  font-style: normal;
+  font-size: 4rem;
+  background-color: #9D8189;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 50px;
+  padding: 15px;
+  border: solid 5px violet;
+  overflow: auto;
+  }
 
-
-    /* Menu*/
+  /* Menu*/
     
 .tablaMenu{
   color: #970177fa;
@@ -98,6 +101,10 @@ footer{
 
   /* Contacto */
 
+form{
+  text-shadow: 2px 2px 2px black;
+}
+
 .formNombre{
   color: #970177fa;
   font-style: normal;
@@ -120,7 +127,7 @@ footer{
   .formMensaje{
     color: #970177fa;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -137,38 +144,37 @@ footer{
     overflow: auto;
   }
 
-  .formTerminos{
-    color: #970177fa;
-    font-style: normal;
-    font-size: 1.5rem;
-    
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    overflow: auto;
-  }
+.formTerminos{
+  color: #970177fa;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  overflow: auto;
+}
 
-  .linkInicio{
-    color: #970177fa;
-    font-style: normal;
-    font-size: 1.5rem;
-    
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    overflow: auto;
+.formBoton{
+  color: #970177fa;
+  font-style: normal;
+  font-size: 1.5rem;
+  background-color: #9D8189;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  overflow: auto;
+}
+.linkInicio{
+  color: #970177fa;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  overflow: auto;
   }
 
 
   /*PEDIDOS*/
 
-  .formBoton{
-    color: #970177fa;
-    font-style: normal;
-    font-size: 1.5rem;
-    background-color: #9D8189;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    overflow: auto;
-  }
+  
 
   .boxUno{
     color: #970177fa;
@@ -251,8 +257,12 @@ footer{
   margin: 30px;
   padding: 30px;
   display: flex;
- 
-  
+}
+
+.divImagen {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .tituloInicio{
