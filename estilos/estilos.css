@@ -171,6 +171,26 @@ form{
   overflow: auto;
   }
 
+.row{ 
+  display: flex;
+  justify-content: center;
+}
+
+.column{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: space-around;
+}
+
+.input-group{
+  margin: 5px;
+
+}
+
+.contenedor{
+  background-color: rgb(23, 23, 77);
+}
 
   /*PEDIDOS*/
 

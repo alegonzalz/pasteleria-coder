@@ -30,39 +30,45 @@
         </header>
 
         <form>
+            <div class="row" class="container-fluid">
+                <div class="column">
+                    <div class="input-group">
+                        <label for="nombre" class="formNombre">Nombre:</label>
+                        <input type="text" placeholder="Nombre y Apellido" name="Nombre:" class="formNombre">
+                    </div>
 
-            <div class="column">
-                <label for="nombre" class="formNombre">Nombre:</label>
-                <input type="text" placeholder="Nombre y Apellido" name="Nombre:" class="formNombre">
-
-                <label for="correo" class="formCorreo">Correo:</label>
-                <input type="email" name="Correo:" placeholder="Email" class="formCorreo">
-
-                
-
-                <label for="mensaje" class="formMensaje">Mensaje:</label>
-                <textarea name="Mensaje:" cols="30" rows="10" placeholder="Comentarios" class="formMensaje"></textarea>
-
-                
-                <label for="terminos" class="formTerminos">Aceptas recibir promociones y descuentos por email?</label>
-                <input type="checkbox" name="terminos" class="formTerminos">
-
-            
-
-                
-                <label for="referencia" class="formReferencia">Como supo de nosotros? </label>
-                <select>
-                    <option value="Redes sociales">Redes sociales</option>
-                    <option value="Un familiar/amigo">Familiar/amigo</option>
-                    <option value="Otro">Otro</option>
-                </select>
+                    <div class="input-group">
+                        <label for="correo" class="formCorreo">Correo:</label>
+                        <input type="email" name="Correo:" placeholder="Email" class="formCorreo">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="mensaje" class="formMensaje">Mensaje:</label>
+                        <textarea name="Mensaje:" cols="30" rows="10" placeholder="Comentarios" class="formMensaje"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <label for="terminos" class="formTerminos">Aceptas recibir promociones y descuentos por email?</label>
+                        <input type="checkbox" name="terminos" class="formTerminos">
+                    </div>
+                    
+                    <div class="input-group"> 
+                        <label for="referencia" class="formReferencia">Como supo de nosotros? </label>
+                        <select>
+                            <option value="Redes sociales">Redes sociales</option>
+                            <option value="Un familiar/amigo">Familiar/amigo</option>
+                            <option value="Otro">Otro</option>                        
+                        </select>
+                    </div>
+                </div>
 
                 <div>
-                    <input type="submit" value="Enviar Formulario">
-                    <input type="reset" value="Borrar Formulario">
+                    <button type="submit">Enviar Formulario</button>
+                    <button type="reset">Borrar Formulario</button>
                 </div>
             </div>
         </form>
+
+
         
 
         <a href="../paginas/Inicio.html" class="linkInicio">Ir a Inicio</a>
